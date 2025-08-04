@@ -6,7 +6,10 @@
 ```bash
 npm run tauri dev
 ```
-
+### Lancer l'application en mode développement pour corriger le bug de page blanche 
+```bash
+export WEBKIT_DISABLE_COMPOSITING_MODE=1 && npm run tauri dev
+```
 ### Lancer uniquement le frontend (React)
 ```bash
 npm run dev
